@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Namgyu Youn
 
-tagline: Quantization · LLM Inference · GPU Systems
+tagline: Notes on quantization, inference, and GPUs
 
 description: >-
   Personal blog on model quantization, LLM inference systems, and GPU/CUDA programming.
