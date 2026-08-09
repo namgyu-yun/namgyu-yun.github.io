@@ -1,0 +1,28 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+
+/* Readability: cap prose measure to ~72 characters so paragraphs don't
+   stretch too wide on large screens (ideal range is 50-75ch). */
+article .content {
+  max-width: 72ch;
+}
+
+/* Readability: code blocks were a bit small (0.85rem) relative to prose;
+   bump size and loosen line-height to match. */
+.highlight pre,
+code.highlighter-rouge {
+  font-size: 0.9rem;
+}
+
+.highlight pre {
+  line-height: 1.6rem;
+}
