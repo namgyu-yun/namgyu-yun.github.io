@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: category-tab
 title: Model Optimization
 icon: fas fa-sliders-h
 order: 7

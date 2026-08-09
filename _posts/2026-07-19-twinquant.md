@@ -2,7 +2,11 @@
 title: "TwinQuant: Learnable Subspace Decomposition for W4A4 LLM Quantization"
 date: 2026-07-19 00:00:00 +0900
 categories: [Model Optimization]
-tags: [quantization, low-rank, llm, svd, w4a4]
+tags: [quantization, low-rank, llm-inference]
+description: >-
+  Notes on TwinQuant (ICML'26), which learns its low-rank/residual
+  decomposition directly against quantization error rather than real-valued
+  energy, via a fused dual-component kernel.
 ---
 
 Notes on _TwinQuant_ (ICML'26), a W4A4-INT post-training quantization method for LLMs. Where prior low-rank + quantization approaches (SVD, LoRA-style) minimize the real-valued energy of the residual, TwinQuant instead **learns** the decomposition itself to directly minimize the *quantization error* of both the residual and the low-rank components — via a joint optimization over two learnable transforms, plus a fused dual-component kernel so the extra low-rank branch doesn't cost latency. (ref: [arXiv:2606.01556](https://arxiv.org/pdf/2606.01556))

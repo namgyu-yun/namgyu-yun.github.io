@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: category-tab
 title: Inference Systems
 icon: fas fa-server
 order: 6

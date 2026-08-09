@@ -1,8 +1,11 @@
 ---
 title: "From CUDA Graph Crash to Tensor Core: Tracing a vLLM INT8 Bug"
 date: 2026-04-27 00:00:00 +0900
-categories: [Hardware & Kernels]
-tags: [cutlass, tensor-core, vllm]
+categories: [Inference Systems]
+tags: [llm-inference, pytorch]
+description: >-
+  Tracing a vLLM CUDA graph capture crash on INT8 inference back to a hidden
+  minimum batch-size constraint in PyTorch's torch._int_mm kernel.
 ---
 
 ## 01. Intro
