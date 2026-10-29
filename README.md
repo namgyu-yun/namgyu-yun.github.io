@@ -1,4 +1,4 @@
-# namgyu-youn.github.io
+# namgyu-yun.github.io
 
 Personal blog on quantization, LLM inference systems, and GPU/CUDA programming.
 

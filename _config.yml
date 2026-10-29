@@ -23,16 +23,16 @@ description: >-
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: "https://namgyu-youn.github.io"
+url: "https://namgyu-yun.github.io"
 
 github:
-  username: namgyu-youn
+  username: namgyu-yun
 
 social:
   name: Namgyu Youn
   email: # add your email if desired
   links:
-    - https://github.com/namgyu-youn
+    - https://github.com/namgyu-yun
     - https://www.linkedin.com/in/namgyu-youn/
 
 # Site Verification Settings
@@ -106,7 +106,7 @@ comments:
     shortname:
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: namgyu-youn/namgyu-youn.github.io
+    repo: namgyu-yun/namgyu-yun.github.io
     issue_term: pathname
   # Giscus options › https://giscus.app
   giscus:

@@ -6,5 +6,5 @@ order: 4
 
 ## Namgyu Youn
 
-- GitHub: [namgyu-youn](https://github.com/namgyu-youn)
+- GitHub: [namgyu-yun](https://github.com/namgyu-yun)
 - LinkedIn: [namgyu-youn](https://www.linkedin.com/in/namgyu-youn/)
